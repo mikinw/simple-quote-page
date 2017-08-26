@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url(https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg) no-repeat fixed center;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
