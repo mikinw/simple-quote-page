@@ -16,9 +16,13 @@ body {
   width: 100vw;
 }
 
+header {
+  margin: 12vh 5vw;
+  position: fixed;
+}
+
 .wrapper {
   text-align: center;
-  margin: 12vh 5vw;
   opacity: .7;
 }
 
