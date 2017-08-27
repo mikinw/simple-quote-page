@@ -6,6 +6,8 @@
 
 /* === ORIGINAL DESKTOP VERSION === */
 
+
+
 body {
   background: url(assets/freedom.jpg) no-repeat fixed center;
   background-size: cover;
@@ -56,13 +58,27 @@ header {
 
 @media (max-width: 768px) {
   
-.quote {
-  font-size: 1rem;
+  .quote {
+    font-size: 1rem;
+  }
+
+  .author {
+    font-size: .9rem;
+  }
+
 }
 
-.author {
-  font-size: .9rem;
-}
+
+/* === LARGEST DESKTOP VERSION === */
+
+@media (min-width: 1441px) {
+  
+  .quote {
+    font-size: 3rem;
+  }
+
+  .author {
+    font-size: 1.8rem;
+  }
   
 }
-
