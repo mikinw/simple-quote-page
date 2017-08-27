@@ -1,6 +1,10 @@
+/* === GENERAL SETTINGS === */
+
 * {
   box-sizing: border-box;
 }
+
+/* === ORIGINAL DESKTOP VERSION === */
 
 body {
   background: url(assets/freedom.jpg) no-repeat fixed center;
@@ -18,7 +22,7 @@ body {
   opacity: .7;
 }
 
-q {
+.quote {
   display: block;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 2.3rem;
@@ -28,13 +32,13 @@ q {
   margin-bottom: 2.1rem;
 }
 
-p {
+.author {
   font-family: 'Crimson Text', serif;
   font-size: 1.4rem;
   font-style: italic;
 }
 
-p::before {
+.author:before {
   display: inline-block;
   background-color: #333333;
   content: "";
@@ -43,3 +47,18 @@ p::before {
   vertical-align: middle;
   width: .4rem;
 }
+
+/* === MOBILE VERSION === */
+
+@media (max-width: 768px) {
+  
+.quote {
+  font-size: 1rem;
+}
+
+.author {
+  font-size: .9rem;
+}
+  
+}
+
