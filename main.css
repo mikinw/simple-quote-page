@@ -2,19 +2,17 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* === ORIGINAL DESKTOP VERSION === */
-
-
+/* === MOBILE VERSION === */
 
 body {
   background: url(assets/freedom.jpg) no-repeat fixed center;
   background-size: cover;
   font-size: 100%;
   height: 100vh;
-  margin: 0;
-  padding: 0;
   width: 100vw;
 }
 
@@ -31,7 +29,7 @@ header {
 .quote {
   display: block;
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.3rem;
+  font-size: 1rem;
   letter-spacing: .1rem;
   line-height: 1.6;
   text-transform: uppercase;
@@ -40,7 +38,7 @@ header {
 
 .author {
   font-family: 'Crimson Text', serif;
-  font-size: 1.4rem;
+  font-size: .9rem;
   font-style: italic;
 }
 
@@ -54,18 +52,141 @@ header {
   width: .4rem;
 }
 
-/* === MOBILE VERSION === */
+footer {
+  background-color: rgba(0,0,0, .2);
+  bottom: 0;
+  padding: 1vh 3.5vw;
+  position: fixed;
+}
 
-@media (max-width: 768px) {
-  
+.changer {
+  height: 1.1rem;
+  line-height: 1.1rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.changer p {
+  color: azure;
+  font-size: 1.1rem;
+  letter-spacing: .1em;
+}
+
+nav {
+  height: 11vh;
+  padding: 2vh 0vw 1vh 3vw;
+  width: 100vw;
+}
+
+.button-container {
+  display: inline-block;
+  margin-bottom: 1vh;
+  margin-right: 3vw;
+  padding: 1vh 1vw;
+  text-align: center;
+  width: 15vw;
+}
+
+.nav-flag {
+  display: block;
+  height: 3vh;
+  margin: 0 auto;
+  width: 7vw;
+}
+
+.language {
+  color: azure;
+  font-size: .8rem;
+  margin-top: 1vh;
+  white-space: nowrap;
+}
+
+.button-container:hover {
+  background-color: rgba(38,75,105, .5);
+  border: 1px solid rgba(0,0,0, .3);
+  border-radius: 5px;
+  transform: scale(1.1,1.1);
+  transition: .3s ease-in-out .15s;
+}
+
+.button-container:active {
+  background-color: #ffffff;
+}
+
+.button-container:visited {
+  opacity: .3;
+}
+
+/* === TABLET VERSION === */
+
+@media (min-width: 768px) {
+
   .quote {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .author {
-    font-size: .9rem;
+    font-size: 1rem;
+  }
+  
+  footer {
+    padding-bottom: 2vh;
+  }
+  
+  .nav-flag {
+    height: 5vh;
+    width: 5vw;
+  }
+  
+}
+
+/* === DESKTOP VERSION === */
+
+@media (min-width: 1220px) {
+  
+  .quote {
+    font-size: 2.3rem;
   }
 
+  .author {
+    font-size: 1.4rem;
+  }
+   
+  footer {
+    display: table;
+    padding-bottom: 0;
+  }
+  
+  .changer {
+    display: table-cell;
+    vertical-align: middle;
+    width: 20vw;
+  }
+  
+  .changer p {
+    font-size: 1.3rem;
+  }
+  
+  nav {
+    display: table-cell;
+    padding-bottom: 0;
+    vertical-align: middle;
+    width: 70vw;
+  }
+  
+  .button-container {
+    width: 10vw;
+  }
+  
+  .nav-flag {
+    height: 4vh;
+    width: 4vw;
+  }
+  
+  .language {
+    font-size: 1rem;
+  }
+  
 }
 
 
@@ -79,6 +200,17 @@ header {
 
   .author {
     font-size: 1.8rem;
+  }
+  
+  footer {
+    padding-bottom: 1vh;
+  }
+  .changer p {
+    font-size: 1.5rem;
+  }
+  
+  .language {
+    font-size: 1.2rem;
   }
   
 }

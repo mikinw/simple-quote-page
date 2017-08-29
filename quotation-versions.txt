@@ -1,0 +1,17 @@
+﻿The Rousseau's quotation in various languages.
+
+English version:
+"The freedom of Mankind does not lie in the fact that can do what we want, but that we do not have to do that which we do not want."
+
+Spanish version:
+"La clase de felicidad que necesito es menos hacer lo que quiero que no hacer lo que no quiero."
+
+French version:
+"L'espèce de bonheur qu'il me faut, ce n'est pas tant de faire ce que je veux mais de ne pas faire ce que je ne veux pas."
+
+German version:
+Die Freiheit des Menschen liegt nicht darin, daß er tun kann, was er will, sondern daß er nicht tun muß, was er nicht will
+
+Hungarian version:
+"Nem az a szabadság, hogy azt teheted amit akarsz, hanem hogy nem kell megtenned azt, amit nem akarsz."
+
