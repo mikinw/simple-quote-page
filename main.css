@@ -79,6 +79,7 @@ nav {
 }
 
 .button-container {
+  border: 1px solid rgba(0,0,0, 0); /* By the help of this method is removed the original blue border of the anchors. */
   display: inline-block;
   margin-bottom: 1vh;
   margin-right: 3vw;
@@ -109,13 +110,15 @@ nav {
   transition: .3s ease-in-out .15s;
 }
 
-.button-container:active {
+.button-container:active { /* At the moment it doesn't works. */
   background-color: #ffffff;
 }
 
-.button-container:visited {
+.button-container:visited { /* At the moment it doesn't works. */
   opacity: .3;
 }
+
+/* It can be a correct further solution introducing one o more device sizes between mobile and tablet version. */
 
 /* === TABLET VERSION === */
 
@@ -142,7 +145,7 @@ nav {
 
 /* === DESKTOP VERSION === */
 
-@media (min-width: 1220px) {
+@media (min-width: 1024px) {
   
   .quote {
     font-size: 2.3rem;
@@ -155,6 +158,7 @@ nav {
   footer {
     display: table;
     padding-bottom: 0;
+    padding-top: 0;
   }
   
   .changer {
@@ -170,6 +174,7 @@ nav {
   nav {
     display: table-cell;
     padding-bottom: 0;
+    padding-top: 1vh;
     vertical-align: middle;
     width: 70vw;
   }
@@ -202,9 +207,6 @@ nav {
     font-size: 1.8rem;
   }
   
-  footer {
-    padding-bottom: 1vh;
-  }
   .changer p {
     font-size: 1.5rem;
   }
