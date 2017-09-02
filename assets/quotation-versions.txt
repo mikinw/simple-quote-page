@@ -10,7 +10,7 @@ French version:
 "L'espèce de bonheur qu'il me faut, ce n'est pas tant de faire ce que je veux mais de ne pas faire ce que je ne veux pas."
 
 German version:
-Die Freiheit des Menschen liegt nicht darin, daß er tun kann, was er will, sondern daß er nicht tun muß, was er nicht will
+"Die Freiheit des Menschen liegt nicht darin, daß er tun kann, was er will, sondern daß er nicht tun muß, was er nicht will."
 
 Hungarian version:
 "Nem az a szabadság, hogy azt teheted amit akarsz, hanem hogy nem kell megtenned azt, amit nem akarsz."
